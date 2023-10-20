@@ -1,4 +1,4 @@
-let weather = fetch("http://api.weatherapi.com/v1/current.json?key=ee72f549b2844100b2d170220231410&q=auto:ip");
+let weather = fetch("https://api.weatherapi.com/v1/current.json?key=ee72f549b2844100b2d170220231410&q=auto:ip");
 weather.then(weather => weather.json()).then(data => parse(data));
 
 //let emergency = fetch()
