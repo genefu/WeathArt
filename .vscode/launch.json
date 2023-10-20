@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "weathart/index.html"
+            "file": "/Users/genesisfu/Desktop/WeathArt/index.html"
         }
     ]
 }
